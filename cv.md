@@ -14,6 +14,7 @@
 |  **E-mail:**  |                     <romakirsh@gmail.com> |
 |  **Github:**  |   [l0l0tr0n](https://github.com/l0l0tr0n) |
 | **Telegram:** |      [fckthssht](https://t.me/@fckthssht) |
+| **Discord:**  |                       lolotron(@l0l0tr0n) |
 
 ### **About me**
 
@@ -34,21 +35,13 @@ I'm 23, and i have been working as teacher in school for 3 years. I graduated Ya
 
 ---
 
-Bubble sort
+[Kata](https://www.codewars.com/kata/5390bac347d09b7da40006f6/javascript) solution
 
 ```javascript
-function sortItems(array) {
-	for (let i = 0; i < array.length; i++) {
-		for (let j = 0; j < array.length; j++) {
-			if (array[j] > array[j + 1]) {
-				let temp = array[j];
-				array[j] = array[j + 1];
-				array[j + 1] = temp;
-			}
-		}
-	}
-	return array;
-}
+String.prototype.toJadenCase = function () {
+  return this.split(' ').
+    map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
+};
 ```
 
 ### **Programming education**
